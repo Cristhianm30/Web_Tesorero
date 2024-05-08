@@ -1,0 +1,126 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7/05/2024, 12:22:54 p. m.
+    Author     : Crist
+*/
+
+/* Añade Google Fonts para Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #306844;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #fff879;
+    font-family: 'Roboto', sans-serif;
+    color: #182c25;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Estilos para el logo en el header */
+header #logo img {
+    height: 70px; /* Ajusta esto según el tamaño de tu logo */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #fff879; /* Color de fondo para el footer */
+    padding: 20px; /* Espaciado interno para el contenido del footer */
+    font-family: 'Roboto', sans-serif; /* Utiliza la misma fuente que el resto de la página */
+    text-align: center; /* Alinea el contenido del footer al centro */
+}
+
+/* Estilos para el logo en el footer */
+footer #logo img {
+    height: 50px; /* Ajusta la altura del logo según sea necesario */
+    display: block; /* Hace que la imagen del logo sea un elemento bloque para alinear el texto debajo */
+    margin: 0 auto 10px; /* Centra la imagen del logo verticalmente y agrega espacio debajo */
+}
+
+/* Estilos para el texto de derechos de autor en el footer */
+footer .copyright p {
+    margin: 0; /* Elimina el margen superior e inferior del párrafo */
+}
+
+/* Estilos para la sección de introducción */
+#introduccion {
+    background-color: #306844; /* Color verde oscuro */
+    color: #ffffff; /* Texto en blanco para contraste */
+    padding: 20px;
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+/* Estilos para la imagen */
+#texto-bienvenida img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 500px; /* Establece un ancho máximo para la imagen */
+    margin-top: 20px; /* Agrega espacio arriba de la imagen */
+}
+
+
+/* Estilos para el contenedor del logo */
+.logo-container {
+    text-align: center; /* Centra el logo */
+}
+
+/* Estilos para el logo */
+.logo {
+    background-color: #fff879; /* Fondo blanco */
+    border-radius: 25%; /* Redondea los bordes para dar forma circular */
+    padding: 5px; /* Espaciado alrededor del logo */
+    width: 150px; /* Ancho del logo */
+    height: 150px; /* Altura del logo */
+}
+
+#caracteristicas {
+    background-color: #306844; /* Verde */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+}
+
+#testimonios {
+    background-color: #306844; /* Verde */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+    background-color: #306844; /* Color de fondo para la sección de contacto */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+}
+
+
+/* Estilos para el menú de navegación */
+#menu-navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu-navegacion li {
+    margin-left: 20px;
+}
+
+#menu-navegacion a {
+    text-decoration: none;
+    color: #182c25;
+}
+
+#menu-navegacion a:hover {
+    color: #000;
+}
